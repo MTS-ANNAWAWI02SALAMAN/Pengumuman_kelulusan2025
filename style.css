@@ -1,0 +1,177 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: 
+        linear-gradient(to bottom, rgba(0, 100, 0, 0.4), rgba(255, 255, 255, 0.6)), 
+        url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigasi */
+/* Navigasi */
+nav {
+    background: #2c3e50; /* Warna gelap */
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Pastikan memenuhi lebar layar */
+    padding: 0 20px;
+}
+
+.nav-left {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav-left li {
+    margin: 0 15px;
+}
+
+.nav-right {
+    list-style: none;
+    display: flex;
+    margin-left: auto; /* Membuat elemen navigasi ini geser ke kanan */
+    padding-left: 0;
+}
+
+.nav-right li {
+    margin: 0 15px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-right a:hover {
+    background: #1a252f;
+}
+/* Header */
+header {
+    background: url('images/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Judul */
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Form Input */
+#content {
+    margin-top: 20px;
+}
+
+/* Form pencarian */
+form {
+    background: rgba(0, 100, 0, 0.7); /* Hijau tua transparan */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Input NISN */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #ffffff; /* Garis putih supaya jelas */
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    background: #ffffff; /* Putih agar kontras dengan hijau tua */
+    color: #000000; /* Teks hitam supaya terbaca */
+    margin-top: 10px;
+}
+
+/* Efek saat input diklik */
+input[type="text"]:focus {
+    border-color: #006400; /* Hijau tua */
+    outline: none;
+    background: #f0f0f0; /* Sedikit abu muda agar efek klik terlihat */
+}
+
+/* Tombol */
+button {
+    background: #28a745; /* Hijau sukses */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838; /* Hijau lebih gelap saat hover */
+}
+
+/* Footer */
+footer {
+    background: #004d00; /* Warna hijau tua */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px; /* Menghindari tumpukan dengan konten */
+}
+
+footer a {
+    color: #FFFFFF; /* Warna putih */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FFD700; /* Warna kuning saat dihover */
+}
